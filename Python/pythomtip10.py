@@ -8,7 +8,7 @@ def fun(a,b):
             fun=max
             break
         else:
-            max+=11
+            max+=1
     print(fun)#print 打印不能放在定义函数的外面，因为程序执行时先执行定义函数外面的代码。
 fun(2,5)
 
